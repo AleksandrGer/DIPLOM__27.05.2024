@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <title>Страница тренера</title>
+
+    <style>
+        .wrapper {
+            background-image: url("img/sport.jpg");
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            /* align-items: center; */
+            height: 1500px;
+            width: auto;
+        }
+
+        .nav-link {
+            font-size: 24px;
+            color: rgb(151, 230, 6);
+            display: unset;
+        }
+
+        .icons {
+            margin-left: 5px;
+            /* mix-blend-mode:multiply; */
+        }
+
+        .girl {
+            display: flex;
+            height: 400px;
+            align-self: center;
+            position: absolute;
+            margin-bottom: 45%;
+            margin-left: -45%;
+        }
+
+        .info {
+            align-self: center;
+            position: absolute;
+            width: 30rem;
+            margin-bottom: 45%;
+            margin-right: -45%;
+        }
+
+        .inner-text {
+            color: aliceblue;
+            font-size: 18px;
+        }
+
+        .mid {
+            position: absolute;
+            margin-top: 30%;
+            
+
+        }
+        .card {
+            background-color: unset;
+            border: unset;
+        }
+        .card-text {
+            font-size: 18px;
+            color: aliceblue;
+        }
+        .card-img-top {
+            width: 30%;
+            align-self: center;
+            
+        }
+        .row {
+            flex-wrap: nowrap;
+            padding: 5px;
+
+        }
+
+        .next-content {
+            background-image: url(img/strawberry.jpg);
+            background-size: cover;
+            display: flex;
+            height: 1254px;
+        }
+
+        section {
+            margin-left: 60%;
+            margin-top: 10%;
+        }
+        form {
+            margin-right: 40%;
+        }
+        .btn-send {
+            background-color: rgb(151, 230, 6);
+            color: aliceblue;
+        }
+        label {
+            color: rgb(151, 230, 6);
+            font-size: 18px;
+        }
+        footer {
+            background-image: url(img/sport.jpg);
+            height: 200px;
+            font-size: 24px;
+            color: rgb(151, 230, 6);
+            
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <nav class="navbar navbar-expand-lg" name="top">
+                <img class="icons" src="img/ic-lay.gif" alt="">
+                <img class="icons" src="img/ic-stand.gif" alt="">
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="training.html">Главная <span class="sr-only">(текущая)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Услуги</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Записаться</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Правила</a>
+                        </li>
+                    </ul>
+                </div>
+                <img class="icons" src="img/ic-push.gif" alt="">
+                <img class="icons" src="img/ic-pull.gif" alt="">
+            </nav>
+        </header>
+
+        <div class="girl">
+            <img src="img/girl.webp" alt="">
+        </div>
+        <div class="info">
+            <div class="inner-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur dolorem voluptatibus quos
+                reprehenderit autem praesentium saepe, ipsam dolorum alias atque vitae aspernatur nemo commodi
+                consequatur nulla. Aperiam non at ipsa.
+            </div>
+        </div>
+
+        <div class="container text-center mid">
+            <div class="row">
+                <div class="card" style="width: 18rem;">
+                    <img src="img/ic-price.gif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Цены на услуги</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="img/ic-gym.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Программы тренировок</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="img/ic-eat.gif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Рекомендации по питанию</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="img/ic-feedback.gif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Отзывы</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="img/ic-calendar.gif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Расписание</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="img/ic-photo.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Результаты</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid next-content">
+        <section class="col-5 pt-5"> <a name="zap"></a>
+            <form onsubmit="sendForm(this); return false;">
+                <div class="input-group mb-2">
+                    <div class="input-group-prepend">
+                        <div class="input-group-text">
+                            <span class="material-icons input-icon"></span>
+                        </div>
+                    </div>
+                    <input 
+                    type="text" 
+                    class="form-control form-control-lg" 
+                    placeholder="Ваше имя"
+                    autocomplete="username"
+                    required
+                    minlength="2"
+                    onfocus="this.placeholder = ''"
+                    onblur="this.placeholder = 'Ваше имя'"
+                    name = "name"
+                    >
+                </div>
+    
+                <div class="input-group mb-2">
+                    <div class="input-group-prepend">
+                        <div class="input-group-text">
+                            <span class="material-icons input-icon"></span>
+                        </div>
+                    </div>
+                    <input 
+                    type="text" 
+                    class="form-control form-control-lg" 
+                    placeholder="Ваша фамилия"
+                    autocomplete="family-name"
+                    required
+                    minlength="3"
+                    onfocus="this.placeholder = ''"
+                    onblur="this.placeholder = 'Ваша фамилия'"
+                    name="lastname"
+                    >
+                </div>
+    
+                <div class="input-group mb-2">
+                    <div class="input-group-prepend">
+                        <div class="input-group-text">
+                            <span class="material-icons input-icon"></span>
+                        </div>
+                    </div>
+                    <input 
+                    type="text" 
+                    class="form-control form-control-lg" 
+                    placeholder="Телефон +7 XXX-XX-XX"
+                    autocomplete="phone"
+                    required
+                    minlength="11"
+                    onfocus="this.placeholder = ''"
+                    onblur="this.placeholder = 'Телефон +7 XXX-XX-XX'"
+                    name="number"
+                    >
+                </div>
+
+                <div>
+                    <label for="date">Выберете желаемую дату</label>
+                    <input type="date">
+                </div>
+                <div>
+                    <label for="time">И время</label>
+                    <input type="time">
+                </div>
+                <div class="form-check mb-3">
+                    <input class="form-check-input" type="checkbox" id="autoSizingCheck" required/>
+                    <label class="form-check-label" for="autoSizingCheck"> Согласие на обработку персональных данных </label>
+                </div>
+                <div class="input-group">
+                    <input type="submit" class="btn btn-block btn-lg btn-send">
+                </div>
+            </form>
+        </section>
+    </div>
+
+    <footer class="container-fluid">
+        <div class="text-center">
+            &copy; &nbsp; <a class="nav-link" href="#top">Наверх</a>
+            <a class="nav-link" href="#zap">Записаться</a>
+        </div>
+        <div class="text-center">
+            <p><a class="nav-link" href="tel:+74952233322">+7 (987) 654-32-10</a></p>
+            <p><a class="nav-link" href="mailto:train@mail.ru">train@mail.ru</a></p>
+        </div>
+    </footer>
+
+
+    <script>
+        function sendForm(form) {
+            alert("Ваша завяка успешно отправлена!")
+        }
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
